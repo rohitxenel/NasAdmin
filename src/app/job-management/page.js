@@ -2,7 +2,7 @@
 import { FiPlus, FiLoader, FiFrown, FiEye, FiRefreshCw } from 'react-icons/fi';
 import { useEffect, useState, useRef } from 'react';
 import Link from "next/link";
-import { getAllJob } from '@/services/rideManagementService ';
+import { getAllJob } from '@/services/rideManagementService';
 import { useUserStore } from '@/store/userStore';
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";

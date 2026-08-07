@@ -1,7 +1,7 @@
 'use client';
 import { useParams, useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import { getAllRide, gejobById } from '@/services/rideManagementService ';
+import { getAllRide, gejobById } from '@/services/rideManagementService';
 import {
     FiArrowLeft,
     FiMapPin,
